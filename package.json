@@ -1,0 +1,20 @@
+{
+  "name": "recipe-forum",
+  "version": "1.0.0",
+  "description": "One-page web app for sharing food recipies",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Aykhan",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "nodemon": "^1.19.1"
+  }
+}
